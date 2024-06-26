@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Form</title>
+</head>
+<body>
+  
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <div class="contact-left-side">
+
+        <h2>PRONOSTICO PAGE</h2>
+        <hr>
+      </div>
+
+       
+      <input type="hidden" name="access_key" value="1ac9b32b-b297-4b1c-8653-9a106478e7e5">
+      
+      <select name="select" id="select">
+        <option value="default">default</option>
+        <option value="BOLIVIA">BOLIVIA</option>
+        <option value="PANAMA">PANAMA</option>
+        <option value="USA">USA</option>
+        <option value="URUGUAY">URUGUAY</option>
+      </select>
+
+      <select name="Score" id="Score">
+      <option value="default">default</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+
+    <select name="select2" id="select2">
+      <option value="default">default</option>
+      <option value="BOLIVIA">BOLIVIA</option>
+      <option value="PANAMA">PANAMA</option>
+      <option value="USA">USA</option>
+      <option value="URUGUAY">URUGUAY</option>
+    </select>
+
+    <select name="Score2" id="Score2">
+    <option value="default">default</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+
+
+      
+      <input type="text" name="result1">
+      <input type="text" name="name" placeholder="equipo favorito" class="contact-inputs" required>
+      <input type="text" name="email" placeholder="enter email" class="contact-inputs" required>
+      <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+
+
+      <button id="submit">submit</button>
+
+
+
+    </form>
+  
+
+
+  </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
