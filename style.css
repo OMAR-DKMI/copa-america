@@ -41,12 +41,5 @@ body {
         background-size: 100%;
     }
 
-  .contact-container{
-    padding: 10px;
-    
-  }
-  .contact-left{
-   grid-template-columns: 1fr;
-
-  }
+  
 }
