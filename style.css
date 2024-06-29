@@ -8,6 +8,9 @@ body {
   background-image: url("img/Copa\ America.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+    background-attachment: fixed;
+  
 }
 
 .contact-container{
@@ -33,4 +36,16 @@ body {
 
 }
 
-.contact-left
+@media screen and(max-width: 250px){
+
+
+  .contact-container{
+    padding: 20px;
+    
+  }
+  .contact-left{
+   grid-template-columns: 1fr;
+
+  }
+}
+  
